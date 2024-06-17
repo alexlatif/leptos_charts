@@ -1,0 +1,13 @@
+max_width = 80
+comment_width = 100
+match_block_trailing_comma = true
+wrap_comments = true
+use_small_heuristics = "Max"
+use_field_init_shorthand = true
+imports_granularity = "Crate"
+ignore = ["crates/bindings/"]
+
+# unstable - require nightly rustfmt
+# ignore automatically generated bindings
+
+# See more keys and their definitions at https://rust-lang.github.io/rustfmt
